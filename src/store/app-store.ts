@@ -14,6 +14,7 @@ export const todoSlice = createSlice({
             state.todoList.pop();
         },
     },
+    
 });
 
 export const { addTask, removeTodo } = todoSlice.actions;
